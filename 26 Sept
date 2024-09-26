@@ -1,0 +1,177 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "4007cf3e-d6fc-4742-864a-d631cf9e3c0a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a number 4\n",
+      "Enter a number 5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "the sum of 4 and 5 is = 9\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input(\"Enter a number :\")) \n",
+    "b=int(input(\"Enter a number :\")) \n",
+    "c=a+b \n",
+    "print(\"the sum of {} and {} is = {}\".format(a,b,c))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "ab3897c4-afb6-43c6-b35d-3923494bc803",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the height of the right angle triangle : 6\n",
+      "Enter the base of the right angle triangle 5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Area of the right angle triangle is =15.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "height=int(input(\"Enter the height of the right angle triangle :\"))\n",
+    "base=int(input(\"Enter the base of the right angle triangle\"))\n",
+    "area=1/2*base*height\n",
+    "print(\"Area of the right angle triangle is ={}\".format(area))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "6d3ea391-c891-4acc-b17f-2a45ad84144a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Please enter your name : Linto\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello,Linto!\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=(input(\"Please enter your name :\"))\n",
+    "print(\"Hello,{}!\".format(a))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "963fad14-63fb-461d-bb8b-5c91e500c968",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a number : 5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The previous number is  4\n",
+      "The next number is 6\n"
+     ]
+    }
+   ],
+   "source": [
+    "n=int(input(\"Enter a number :\"))\n",
+    "print(\"The previous number is \",n-1)\n",
+    "print(\"The next number is\",n+1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "a3722fe0-3971-4e36-8d67-4957fcabd125",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the amount : 1000\n",
+      "Enter the itrest rate : 5\n",
+      "Enter the number of years : 4\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The simple intrest you will get for 1000.0 amount for 4.0 years in 0.05 intrest is = 200.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "amount=float(input(\"Enter the amount :\"))\n",
+    "rate=float(input(\"Enter the itrest rate :\"))\n",
+    "years=float(input(\"Enter the number of years :\"))\n",
+    "rate=rate/100\n",
+    "simple_intrest=amount*rate*years\n",
+    "print(\"The simple intrest you will get for {} amount for {} years in {} intrest is = {}\".format(amount,years,rate,simple_intrest))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a440ba7e-f607-47d4-b6a7-57cc29041be3",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
